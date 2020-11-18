@@ -19,4 +19,6 @@ Wenn man am Projekt mitarbeiten möchte, erstellt man einen Fork, also eine 1-zu
 ## Branches
 Wenn man "Edits" durchführt, also eine Veränderung an einer Datei, kann man immer entscheiden, ob diese Änderung direkt in der Hauptquelle (main) durchgeführt wird oder ein "branch" angelegt wird. Ein Branch ist quasi eine Veränderung, die zunächst außerhalb der Quelldatei parallel zu dieser besteht. Das ist sinnvoll, weil man dadurch gefahrlos Veränderungen einarbeiten und ausprobieren kann, ohne das Hauptdolument zu gefährden. Wenn sich ein Branch als sinnvoll und fehlerfrei erweist, kann man einen "pull request" auslösen und diesen in die Hauptquelle ünernehmen (merge, zusammenführen).
 
-[GitHub-Markdown](https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax) - Hiöfeseite zur Markdown-Syntax von GitHub
+[GitHub-Anleitungen](https://guides.github.com) - Anleitungen zur Nutzung von GitHub
+
+[GitHub-Markdown](https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax) - Hilfeseite zur Markdown-Syntax von GitHub

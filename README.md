@@ -6,7 +6,7 @@ Github ist ein Hostingservice, der eine Software zur Versionsverwaltumg betreibt
 Letztlich kann GitHub aber auch für Projekte verwendet werden, die nichts mit Programmierung zu tun haben. Dokumente werden hauptsächlich mit der **Auszeichnungssprache Markdown** erstellt. Diese ist leicht zu lernen und sowohl von Maschinen verarbeitbar, als auch von Menschen zu lesen.
 
 ## Was ist Git?
-Git ist eine Software, die es erlaubt Versionen zu verwalten. Dabei arbeitet das System nicht zentral, sondern verteilt. Das bedeutet, dass jeder Mitarbeiter ein lokale Kopie des Repositorys auf seinem Rechner hat und an einem Duplikat, beispielsweise des Programmcodes, arbeitet (branching)[^1]. Erst wenn sich die Veränderungen als gut und fehlerfrei herausgestellt haben, werden die Veränderungen dann in den "master" zurückgeführt (merging). Der Vorteil ist, dass im Falle eines Fehlers oder eines Datenverlustes mit sehr hoher Wahrscheinlichkeit "Backups" bei den anderen Mitarbeitern existieren, und somit das Projekt nicht verloren ist. Git kümmert sich auch darum, dass parallele Veränderungen mehrerer Mitarbeiter wieder zu einer neuen gemeinsamen Version zusammengeführt werden können.
+Git ist eine Software, die es erlaubt Versionen zu verwalten. Dabei arbeitet das System nicht zentral, sondern verteilt. Das bedeutet, dass jeder Mitarbeiter ein lokale Kopie des Repositorys auf seinem Rechner hat und an einem Duplikat, beispielsweise des Programmcodes, arbeitet (branching)<sup>[1](#foot1)</sup>. Erst wenn sich die Veränderungen als gut und fehlerfrei herausgestellt haben, werden die Veränderungen dann in den "master" zurückgeführt (merging). Der Vorteil ist, dass im Falle eines Fehlers oder eines Datenverlustes mit sehr hoher Wahrscheinlichkeit "Backups" bei den anderen Mitarbeitern existieren, und somit das Projekt nicht verloren ist. Git kümmert sich auch darum, dass parallele Veränderungen mehrerer Mitarbeiter wieder zu einer neuen gemeinsamen Version zusammengeführt werden können.
 
 ## Was sind Repositories und Issues?
 Repositories sind im Grunde **Ordner oder Verzeichnisse** (man könnte auch "Projekt" sagen, allerdings ist der Begriff irreführend, da es innerhalb von Repositories Projekte gibt). Innerhalb des Repositories können verschiedenen Dokumente angelegt werden und Vorgänge (Issues) ausgelöst werden.
@@ -29,4 +29,4 @@ Wenn man "Edits" durchführt, also eine Veränderung an einer Datei, kann man im
 
 [Git visualisieren[(http://git-school.github.io/visualizing-git/) - Ein Tool um verschiedene Operationen mit Git zu visualisieren und damit besser zu verstehen
 
-[^1]: Die Wirklichkeit ist etwas komplizierter. Eigentlich ist ein Branch nur ein Zeiger (Pointer oder Reference) auf einen Commit im Repository.
+<a name="foot1">1</a>: Die Wirklichkeit ist etwas komplizierter. Eigentlich ist ein Branch nur ein Zeiger (Pointer oder Reference) auf einen Commit im Repository.

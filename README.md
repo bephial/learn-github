@@ -29,4 +29,5 @@ Wenn man "Edits" durchführt, also eine Veränderung an einer Datei, kann man im
 
 [Git visualisieren[(http://git-school.github.io/visualizing-git/) - Ein Tool um verschiedene Operationen mit Git zu visualisieren und damit besser zu verstehen
 
-<a name="foot1">1</a>: Die Wirklichkeit ist etwas komplizierter. Eigentlich ist ein Branch nur ein Zeiger (Pointer oder Reference) auf einen Commit im Repository.
+## Fußnoten
+<a name="foot1">[1]</a>: Die Wirklichkeit ist etwas komplizierter. Eigentlich ist ein Branch nur ein Zeiger (Pointer oder Reference) auf einen Commit im Repository.
